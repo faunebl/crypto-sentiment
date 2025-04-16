@@ -71,5 +71,29 @@ async def process_in_batches(prompts: list, batch_size: int=1000, concurrency: i
         yield results
 
 
-
+def preprocess_responses(path_names = ['responses_2024_2025.csv', 'responses_2017_2024.csv']) -> pl.DataFrame:
+    titles = import_data()
+    responses = []
+    for path in path_names:
+        responses_frame = (
+            pl.read_csv(path)
+            .with_columns(
+                pl.when(pl.col('response').str.slice(0,10).str.to_lowercase().str.contains('increase')).then(1).otherwise(0).alias('increase'),
+                pl.when(pl.col('response').str.slice(0,10).str.to_lowercase().str.contains('decrease')).then(1).otherwise(0).alias('decrease'),
+                pl.when(pl.col('response').str.slice(0,10).str.contains('[ERROR]')).then(1).otherwise(0).alias('error'),
+            )
+        )
+        responses.append(responses_frame)
+    responses = pl.concat(responses)
+    responses = pl.concat([responses, titles], how='horizontal').select('date', 'title', 'increase', 'decrease', 'error')
+    
+    return (
+        responses
+        .select('date', 'increase', 'decrease')
+        .with_columns(diff = pl.col('increase').sub(pl.col('decrease')))
+        .group_by('date')
+        .sum()
+        .with_columns(score = pl.col('diff') / (pl.col('increase').add(pl.col('decrease'))))
+        .sort('date')
+    )
 

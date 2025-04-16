@@ -1,7 +1,5 @@
 from api_key import API_KEY
-import os
 import asyncio
-from dask.distributed import Client, as_completed, get_client, wait
 from mistralai import Mistral
 
 async def query_mistral(prompt: str):
@@ -11,6 +9,7 @@ async def query_mistral(prompt: str):
     response = await client.chat.stream_async(
         model=model,
         messages=[{"role": "user", "content": prompt}],
+        max_tokens=20
     )
     output = ""
     async for chunk in response:

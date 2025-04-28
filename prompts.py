@@ -4,15 +4,18 @@ from mistralai import Mistral
 import polars as pl
 from datetime import datetime
 import os
+# Chemin vers le dossier data
+DATA_DIR = "data"
 
 model = "mistral-tiny" #because we need to pay for the API
 mistral_client = Mistral(api_key=API_KEY)
 output_file = "responses.parquet"
 
 def import_data() -> pl.DataFrame:
-    titles = pl.read_csv(source=r"data\cryptopanic_news.csv").select(pl.col("id").alias('newsId'), "title", "newsDatetime")
-    currency = pl.read_csv(r"data\currency.csv").rename({'id':'currencyId'})
-    ids = pl.read_csv(r"data\news__currency.csv")
+    titles = pl.read_csv(
+    source=os.path.join(DATA_DIR, "cryptopanic_news.csv")).select(pl.col("id").alias('newsId'), "title", "newsDatetime")
+    currency = pl.read_csv(os.path.join(DATA_DIR, "currency.csv")).rename({'id':'currencyId'})
+    ids = pl.read_csv(os.path.join(DATA_DIR, "news__currency.csv"))
     return (
         titles
         .join(ids, on="newsId")

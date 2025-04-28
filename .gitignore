@@ -3,3 +3,4 @@
 api_key.py
 **.parquet
 **past_responses
+**venv-alternative

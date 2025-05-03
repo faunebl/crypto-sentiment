@@ -4,6 +4,9 @@ import numpy as np
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
 import matplotlib.pyplot as plt
+from datetime import timedelta
+import yfinance as yf
+import pandas as pd
 
 def compute_sentiment_ear(sentiment: pl.Series) -> pl.Series:
     """
@@ -116,3 +119,34 @@ def get_logistic_regression(df: pl.DataFrame, penalty: str, X: list, y: list):
     plt.show()
     
     return
+
+def get_btc_returns(scores: pl.DataFrame):
+    min_date = scores["date"].min()
+    max_date = scores["date"].max()
+
+    start_str = min_date.strftime("%Y-%m-%d")
+    end_str   = (max_date + timedelta(days=1)).strftime("%Y-%m-%d")
+
+    df_pd = yf.download(
+        tickers="BTC-USD",
+        start=start_str,
+        end=end_str,
+        interval="1d",
+        progress=False
+    )
+
+
+    if isinstance(df_pd.columns, pd.MultiIndex):
+        df_pd.columns = df_pd.columns.get_level_values(0)
+
+    df_pd = df_pd.reset_index()
+    df_price = (
+        pl.from_pandas(df_pd)
+        .select([
+            pl.col("Date").alias("date").cast(pl.Date),
+            pl.col("Close").alias("close")
+        ])
+        .with_columns(pl.col('close').log().diff().alias('returns'))
+        .with_columns(pl.when(pl.col('returns').gt(0)).then(1).otherwise(0).alias('actual'))
+    )
+    return df_price

@@ -155,7 +155,7 @@
 
 \begin{document}
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, breakable, enhanced, interior hidden, frame hidden, borderline west={3pt}{0pt}{shadecolor}, sharp corners]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, interior hidden, breakable, frame hidden, enhanced, borderline west={3pt}{0pt}{shadecolor}, sharp corners]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -166,7 +166,32 @@
 \hypertarget{introduction}{%
 \section{Introduction}\label{introduction}}
 
-Write with chat
+This project asks a simple question: can the mood of the market help us
+make better decisions when trading cryptocurrencies? We adapted a
+research paper called Ghost in the Machine \textcite{leland_bybee_2025},
+which showed that in traditional markets, sentiment often builds up
+before a crash. That made us wonder if we could take similar ideas and
+apply them to crypto, which is even more emotional and unpredictable.
+The goal was to see if tracking sentiment could help us understand how
+prices are going to move. Often, crypto naysayers say that
+cryptocurrency prices rely on nothing but speculation. Therefore, trying
+to understand the market's ``irrational'' response to news can help shed
+light on this debate. Even though it doesn't resolve the core question
+of the intrinsic value of bitcoin, it can show if investors in
+cryptocurrency are more or less emotional than investors in ``classic''
+assets.
+
+We started by collecting sentiment data from places like news headlines.
+The idea was to measure whether the overall tone on a given day was
+positive, negative, or somewhere in between. For this, we used the
+methodology presented in the paper, which we adapted to work with
+Mistral AI (the Large Language Model (LLM) developed by french startup
+Mistral), which is cheaper and easier to scale than GPT 3.5 (the LLM
+used in the paper). Feeding the headlines to the LLM helped us develop a
+time series of a sentiment ``score'' going from -1 to 1, which we can
+then compare to bictoin returns.
+
+-\textgreater{} finish intro when we have final results
 
 \hypertarget{generating-sentiment-score}{%
 \section{Generating sentiment score}\label{generating-sentiment-score}}
@@ -225,17 +250,72 @@ This prompt has been adapted from traditional retail investor surveys or
 surveys of CFOs that are used to produce a sentiment indicator. However,
 these are costly and slow. As presented in the paper, using AI models to
 replace human answers mimics the same results on a much bigger and
-faster scale. We will also try to edit this prompt by adding context:
-since Bitcoin has mostly been popular among retail investors, we can add
-a simple sentence (e.g.~``You are a retail investor'') at the beginning
-of this prompt, to see if this yields better results. We will conclude
-on this in the end of the project.
+faster scale.
 
 More information about the construction on this prompt can be found in
 \textcite{leland_bybee_2025} .
 
+Here, we use the Mistral LLM to generate prompt answers. The Mistral AI
+API is a service that gives us access to powerful language models,
+similar to ChatGPT or Claude. These models can read and interpret text,
+making them useful for tasks like summarizing news or detecting the tone
+of an article. In our project, we use the Mistral API to process
+financial headlines or crypto-related news and ask the model the prompt
+presented earlier. The model then gives us a structured answer,
+including its level of confidence and a short explanation.
+
+Running sentiment scoring at a large scale using the Mistral API isn't
+just about sending a bunch of text to a model. It quickly becomes a
+technical challenge. If you're processing thousands (or even millions)
+of headlines, you need to manage API requests carefully. Language models
+are slow compared to normal scripts, and APIs often have strict rate
+limits. If you send too many requests too fast, you'll get throttled or
+even temporarily blocked. That means you need to build in delays, handle
+retries, and keep track of how many requests you're sending per second
+or minute.
+
+To make this efficient, the code has to handle asynchronous execution
+and concurrency. Instead of sending requests one by one (which would
+make the code very inefficient and take a long time to generate
+answers), we wanted to send many in parallel---without breaking the API
+rules. That means using tools like Python's asyncio, aiohttp, or httpx,
+and writing logic that can pause, retry failed calls, and wait when
+needed. WWe however also needed to track which headlines have already
+been scored to handle failures cleanly. Scaling this up without crashing
+the system or getting banned by the API meant taking additional security
+measures in the code.
+
+-\textgreater{} insert pseudo code of ambroise's final api pipeline
+
 \hypertarget{scores-methodology}{%
 \subsection{Scores methodology}\label{scores-methodology}}
+
+After getting the scores from the LLM, we are left with categorical
+values for each news, while there are multiple news per day. Therefore,
+we decide to assign 1 if the LLM says the news will increase BTC, -1 if
+it says it will decrease, and if it is uncertain we will ignore the
+headline entirely (so as to not create noise). Then, we aggregate every
+headline for one day, so that we get a clean series with one sentiment
+score per day. To aggregate, we use the formula presented in the paper:
+
+\[
+F^\text{gpt}_t *(X^k_{t+h}) = \frac{\sum_{i \in \mathcal{A}_t} \mathbb{I}(\text{Increase}^k_i) - \mathbb{I}(\text{Decrease}^k_i)}{\sum_{i \in \mathcal{A}_t} \mathbb{I}(\text{Increase}^k_i) + \sum_{i \in \mathcal{A}_t} \mathbb{I}(\text{Decrease}^k_i)}
+\]
+
+The EAR, or Ex-Ante Residual, is meant to capture the part of sentiment
+that can't be predicted based on past patterns. We do this by using a
+simple model (like an AR(1): a linear regression where the explanatory
+variable is simply the lagged target) to see what today's sentiment
+should be, based on yesterday's. Whatever's left over (i.e.~the part the
+AR(1) model didn't expect) is the EAR. It's the surprise in the mood of
+the market.
+
+This surprise is important because it often reflects emotional or
+irrational shifts. In crypto especially, people can get overly excited
+or scared in ways that don't line up with the data. By focusing on these
+unexpected jumps in sentiment, we're trying to isolate the moments when
+crowd psychology might be taking over---when prices could be getting
+ahead of reality.
 
 \hypertarget{comparison-with-btc-returns}{%
 \section{Comparison with BTC

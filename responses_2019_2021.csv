@@ -1,0 +1,1616 @@
+index,prompt,response
+0,"
+    Here is a piece of news:
+    ""BTC Head to All-Time Highs, XRP Could Become Number One, and BCH/BSV Will Fade Away: 7 Forecasts for 2019 by Weiss Ratings""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}
+{confidence (0.65)}
+{magnitude of increase (0.35)}
+The headline suggests positive sentiment towards BTC, potentially attracting more investors and boosting its value. However, the prediction is not absolute and other factors can influence BTC's price."
+1,"
+    Here is a piece of news:
+    ""Bitcoin and Bitcoin Cash Getting Gaslit by Craig Wright and Calvin Ayre?""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase: false}
+{confidence (0-1): 0.7}
+{magnitude of decrease (0-1): 0.2}
+{explanation: Negative publicity around Craig Wright and Calvin Ayre could potentially harm Bitcoin Cash more than Bitcoin, as BTC has stronger market dominance. However, it's uncertain to predict exact market movements based on this news alone.}"
+2,"
+    Here is a piece of news:
+    ""BITCOIN TO !? How to predict BTC bottom & make millions in bear market ETH EOS NEO""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}: {0.3}
+{magnitude of increase (0-1)}: {0.1}
+{explanation (less than 25 words)}: The title suggests potential interest in Bitcoin, which could lead to a slight increase. However, the certainty is low due to the sensationalistic nature of the headline and the lack of concrete data."
+3,"
+    Here is a piece of news:
+    ""Bitcoin SV Price Prediction. A Top-Ten Cryptocurrency You Need to Know About""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{uncertain}:
+{0.5}:
+{0.25}:
+Articles about price predictions often do not have a direct impact on the price of a cryptocurrency. However, if the article presents Bitcoin SV in a positive light, it could potentially attract some attention and interest in the cryptocurrency, which might lead to a slight increase in BTC's price. Conversely, a negative or misleading portrayal could have the opposite effect."
+4,"
+    Here is a piece of news:
+    ""BTC will rise 80%, XLM 260%, ADA +99% and ETH 55%. DOGE will dump -77% by Dec 31, 2019. TRX -52% this Month, Panel of Experts Predicts""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}
+{0.8}
+{0.6}
+Such news typically creates uncertainty in the market, as it is not based on fundamental analysis or market trends. The predictions for specific coins (BTC, XLM, ADA, ETH, DOGE, TRX) seem unrealistic, especially for such short time frames and without providing reasons for the predictions. Therefore, the news is likely to have a negative impact on BTC, as it could discourage investors due to the unrealistic and potentially misleading nature of the predictions."
+5,"
+    Here is a piece of news:
+    ""3 Blockchain Projects With A Substantial User Base Right Now""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}: {0.4}
+{magnitude of increase (0-1)}: {0.2}
+{explanation (less than 25 words)}: Positive news about blockchain projects may indirectly boost Bitcoin's reputation and demand."
+6,"
+    Here is a piece of news:
+    ""HOT GIRL EXPLAINS CRYPTO: Bitcoin, Blockchain & Altcoins | BTC ETH XRP TRX ADA EOS""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{uncertain}: {0.3}: {0.1}: This news is about explaining cryptocurrencies in general, not specific to Bitcoin, so it's unlikely to have a significant impact on its price."
+7,"
+    Here is a piece of news:
+    ""Bittorrent ICO Rekt. Bitcoin Rally In sight. + Tron Airdrop""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.7)}:
+{magnitude of increase (0.3)}:
+{Explanation: The Bittorrent ICO failure may lead to a reallocation of funds into other cryptocurrencies, potentially boosting Bitcoin.}"
+8,"
+    Here is a piece of news:
+    ""How to Store & Secure Crypto on a Ledger Nano S [2020 Expert Guide]""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{uncertain}: {0.5}: {0.2}: This article provides information on securely storing cryptocurrencies, including Bitcoin, and does not directly affect the price of Bitcoin."
+9,"
+    Here is a piece of news:
+    ""Litecoin [LTC] Spikes Higher Becoming 4th Largest Crypto,  Within Striking Distance""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.5)}:
+{magnitude of increase (0.2)}:
+{explanation (The spike in Litecoin's value might divert some investors' attention from Bitcoin, but the overall effect on BTC is likely to be minimal)}"
+10,"
+    Here is a piece of news:
+    "" SBI Holdings CEO: Bitcoin’s Value Is Zero, Ripple Is The No.1 Cryptocurrency""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}
+{confidence (0.7):}
+{magnitude of decrease (0.3):}
+The CEO's negative statement about Bitcoin's value could potentially discourage some investors, leading to a decrease in its price."
+11,"
+    Here is a piece of news:
+    ""Which Cryptocurrencies to Hold in 2019?""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase: uncertain}
+{confidence (0-1): 0.4}
+{magnitude of increase/decrease (0-1): 0.2}
+{explanation (less than 25 words): The title suggests a discussion about altcoins, not Bitcoin, so its impact might be minimal.}"
+12,"
+    Here is a piece of news:
+    ""Brazil’s BTG Pactual Bank to Add Security Token to Portfolio""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.45)}:
+{magnitude of increase (0.05)}:
+{Explanation: The addition of a security token by BTG Pactual could potentially spark interest in digital assets, benefiting BTC indirectly.}"
+13,"
+    Here is a piece of news:
+    ""What is Ethereum? The ULTIMATE Research-Backed ETH Guide""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase: 0.1}
+{confidence (0-1): 0.6}
+{magnitude of increase/decrease (0-1): 0.2}
+{explanation (less than 25 words): Mentioning Ethereum may lead to a slight increase in BTC due to competition and market interest.}"
+14,"
+    Here is a piece of news:
+    ""Bitcoin SV (BSV) Price Gains 20% — How Can It Reach Top 10 and Be a Serious Contender?""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase: 0.1}
+{confidence (0-1): 0.3}
+{magnitude of increase/decrease (0-1): 0.05}
+{explanation (less than 25 words): News about Bitcoin SV (BSV) may slightly affect Bitcoin (BTC) price, but the correlation is weak as they are distinct cryptocurrencies. BSV's price increase is unlikely to have a considerable impact on BTC's price movement.}"
+15,"
+    Here is a piece of news:
+    ""Bitcoin SV (BSV) Price Prediction – The Six-Month Analysis""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{uncertain: 1}
+{confidence (0-1): 0.5}
+{magnitude of increase/decrease (0-1): 0.3}
+{explanation: The title mentions Bitcoin SV (BSV), not Bitcoin (BTC), so its price prediction would not directly impact BTC.}"
+16,"
+    Here is a piece of news:
+    ""Man Behind “My Big Coin” Scam Charged by DOJ""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}
+{0.5}
+{0.2}
+Negative news about cryptocurrency-related scams can potentially decrease investor confidence in the overall market."
+17,"
+    Here is a piece of news:
+    ""Bitcoin SV Team Rectifies Vulnerabilities for Multiple Bitcoin Blockchains﻿""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{uncertain}: {0.5}: {0.2}: The news pertains to Bitcoin SV, a forking of Bitcoin, not the original Bitcoin (BTC). Its impact on BTC is uncertain as they operate independently."
+18,"
+    Here is a piece of news:
+    ""Bakkt Coffee, Lightning Radio, TRON + Tether, Bitcoin Bull Signal & XRP Loans""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.6)}:
+{magnitude of increase (0.3)}:
+{explanation: The potential integration of TRON with Tether, XRP loans, and new applications like Bakkt Coffee and Lightning Radio could positively impact BTC due to increased adoption and interest.}"
+19,"
+    Here is a piece of news:
+    ""Crypto Market Update Mar.5: Coinbase Scandals, BNB Breaks Records, and Bitcoin At Starbucks?""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase: 1}
+{confidence (0-1): 0.6}
+{magnitude of increase (0-1): 0.2}
+{explanation: The mention of BNB breaking records could positively impact BTC as it's often correlated with broader crypto market trends.}"
+20,"
+    Here is a piece of news:
+    ""Bitcoin SV Now Accepted at All POS Terminals Thanks to Zeux Platform and Its ZeuxCoin""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}: {0.3}: {0.1}: The integration of Bitcoin SV into more payment systems could potentially increase its adoption and value. However, the impact is expected to be minimal due to BTC's dominant market position."
+21,"
+    Here is a piece of news:
+    ""What is TRON? What is TRX? A Must-Read 2019 Guide Packed Full of Info""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ",[ERROR] rate-limit retries exhausted
+22,"
+    Here is a piece of news:
+    ""Bitcoin Trading Volume Tops  Billion For First Time In Nearly a Year""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.75)}:
+{magnitude of increase (0.5)}:
+{An increase in trading volume generally indicates greater market interest and could potentially drive the price up.}"
+23,"
+    Here is a piece of news:
+    ""Stock Exchange of Thailand Announces Digital Assets Platform""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}: {0.4}: {0.2}: The news suggests Thailand may embrace digital assets, potentially boosting BTC's appeal among investors in the region.
+
+This response reflects a moderate belief that the news may cause a slight increase in Bitcoin's price. However, it's important to note that numerous factors influence Bitcoin's price, and this news is just one factor among many. Therefore, the magnitude of the increase is expected to be small."
+24,"
+    Here is a piece of news:
+    ""Bitcoin and Anonymous Coins Not Favored by Terrorists – Cash Is: Report""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}: {0.7}: {0.3}: This news may indicate a perception of Bitcoin being less attractive for illicit activities, which could potentially lead to a decrease in its demand among certain groups, affecting its price."
+25,"
+    Here is a piece of news:
+    ""IOTA Price Prediction For April: Can It Rise By 45% To Hit The Target of BTC.50?""
+    Do you think this news will increase or decrease %s?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","decrease: 0.8
+magnitude of decrease: 0.4
+explanation: The news suggests a potential price increase for IOTA, but this is speculative and generally causes short-term volatility rather than a sustained increase. The potential conflict with Bitcoin's value may deter some investors, leading to a decrease in IOTA's value."
+26,"
+    Here is a piece of news:
+    ""Litecoin (LTC), EOS (EOS), IOTA (MIOTA), Stellar (XLM) Price Prediction: Cryptocurrency Weekly Overview""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{uncertain}: {0.5}: {0.25}: The news does not directly affect Bitcoin's price. It discusses the price prediction of four different cryptocurrencies, not Bitcoin."
+27,"
+    Here is a piece of news:
+    ""Reuters: Chinese National Agency Wants to Ban Bitcoin Mining""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}
+{confidence (0.8)}: High
+{magnitude of decrease (0.6)}: Moderate
+{explanation (less than 25 words)}: A ban on Bitcoin mining in China could reduce its global hash rate, making it harder to mine new coins and potentially increasing the price due to scarcity. However, the immediate market reaction is likely to be negative."
+28,"
+    Here is a piece of news:
+    ""#DelistBSV: Here's Why Bitcoin SV Could Be Delisted from All Exchanges""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}
+{0.8}
+{0.3}
+{Delisting of Bitcoin SV may create uncertainty in the crypto market, potentially negatively impacting other coins, including BTC.}"
+29,"
+    Here is a piece of news:
+    ""Forbes: Binance’s CZ Threatens to Anathematize Craig Wright’s Bitcoin SV""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase:1}
+{confidence (0-1): 0.6}
+{magnitude of increase (0-1): 0.2}
+{explanation: Negative sentiment towards a rival cryptocurrency (Bitcoin SV) by Binance's CEO may divert attention and resources to Bitcoin.}"
+30,"
+    Here is a piece of news:
+    ""Breaking: Binance Delists Bictoin Cash SV, BCH-ABC Surges""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase:uncertain}
+{confidence (0-1): 0.3}
+{magnitude of increase/decrease (0-1): 0.2}
+{explanation (less than 25 words): The impact on BTC could be minimal as Binance delisting BCH-SV may not significantly affect BTC's market dominance, but the uncertainty comes from the potential market reactions.}"
+31,"
+    Here is a piece of news:
+    ""Bitcoin Price Reaction to Tether Fiasco May Signal Strong Fundamental Strength""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}: {0.6}
+{magnitude of increase (0-1)}: {0.3}
+{explanation (less than 25 words)}: The news may suggest renewed confidence in Bitcoin amid Tether's issues, potentially leading to a modest price increase."
+32,"
+    Here is a piece of news:
+    ""IOTA Skyrockets 16 Percent on Jaguar Partnership. Will the Rally Continue?""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase: uncertain}
+{confidence (0-1): 0.3}
+{magnitude of increase/decrease (0-1): 0.1}
+{explanation (less than 25 words): IOTA's rally might attract attention to the crypto market, potentially benefiting BTC indirectly, but the magnitude is uncertain due to market fluctuations and the specifics of the Jaguar partnership. }"
+33,"
+    Here is a piece of news:
+    ""Bitfinex Prices Are now Excluded from CoinMarketCap""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}:
+{confidence (0.6)}:
+{magnitude of decrease (0.2)}:
+{explanation: Bitfinex, a major cryptocurrency exchange, being excluded from CoinMarketCap could potentially lead to a decrease in trading volume, affecting BTC's price.}"
+34,"
+    Here is a piece of news:
+    ""TRX Will Pass Cardano, BTT To Rise, ETH 2.0 Testnet, Cardano Roadmap & Bitcoin Gambling Device""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{uncertain: 1}
+{confidence (0-1): 0.4}
+{magnitude of increase/decrease (0-1): 0}
+{explanation (less than 25 words): The news does not directly affect Bitcoin price, but mentions potential growth for TRX, BTT, and Cardano. ETH 2.0 and Bitcoin gambling device mentions are neutral.}"
+35,"
+    Here is a piece of news:
+    ""Ripple’s Rising Competitor DRIVE Partners with Bitcoin SV to Use BSV as Bridge Currency""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase: false, confidence: 0.3, magnitude_of_decrease: 0.1, explanation: ""DRIVE partnering with Bitcoin SV might divert some attention from BTC, but it's not a substantial development to significantly impact BTC's price.""}"
+36,"
+    Here is a piece of news:
+    ""Tron (TRX) Outperforms Bitcoin Network by Transactions Amount""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease: 0.6}
+{magnitude of decrease: 0.2}
+The news suggests that Tron's network is growing faster than Bitcoin's in terms of transactions, which could be perceived as a negative for Bitcoin's dominance in the market. However, the impact is relatively small as this news does not account for other factors such as Bitcoin's market capitalization, development progress, and global adoption."
+37,"
+    Here is a piece of news:
+    ""What Is Dash Cryptocurrency? The Ultimate Guide""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{uncertain}:
+{0.3}:
+{0.1}:
+Dash's success doesn't directly affect BTC as they are separate cryptocurrencies. However, increased publicity for cryptocurrencies overall could potentially benefit BTC."
+38,"
+    Here is a piece of news:
+    ""Bitcoin SV Price Skyrockets 90 Percent After Craig Wright Copyrights Bitcoin White Paper""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{uncertain}:
+{0.3}:
+{0.1}:
+This event primarily affects Bitcoin SV, not Bitcoin (BTC). The impact on BTC would likely be minimal as the two are distinct cryptocurrencies."
+39,"
+    Here is a piece of news:
+    ""Bitcoin SV Takes Spot #11 on CMC After Doubling Its Value Thanks to Craig Wright’s Recent Move""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{uncertain: 1}
+{confidence (0-1)}: 0.4
+{magnitude of increase/decrease (0-1)}: 0.2
+{explanation (less than 25 words)}
+This news about Bitcoin SV does not directly impact Bitcoin, as they are separate cryptocurrencies. However, positive news about one cryptocurrency can sometimes indirectly boost the market sentiment, leading to a slight increase in other cryptocurrencies' values. The magnitude of this effect is expected to be low in this case."
+40,"
+    Here is a piece of news:
+    ""Bitcoin Price Drops Again Whilst BSV Takes Biggest Hit After USCO Snubbed Craig Wright""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}:
+{confidence (0.7)}:
+{magnitude of decrease (0.3)}:
+{Explanation: The news suggests a negative event for Bitcoin SV (BSV), but it might indirectly affect BTC due to market correlation. However, the magnitude is expected to be low as the news does not seem to have a significant impact on BTC's overall market value.}"
+41,"
+    Here is a piece of news:
+    ""Bitcoin Cash Miners Undo Attacker’s Transactions With ‘51% Attack’""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}: {0.7}: {0.3}: This incident highlights a potential vulnerability in the Bitcoin Cash network, causing uncertainty and negatively impacting investor confidence in the cryptocurrency."
+42,"
+    Here is a piece of news:
+    ""Buy or Cry! Bitcoin SV (BSV) Price Booms – Sweet Summer Is Predicted""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase: BTC and BSV are different cryptocurrencies, so a price boom in BSV would not directly affect BTC's price.}
+{confidence (0-1)}: {0.2}
+{magnitude of increase/decrease (0-1)}: {0}
+{explanation (less than 25 words)}: As BTC and BSV are separate cryptocurrencies, their prices generally do not have a direct relationship."
+43,"
+    Here is a piece of news:
+    ""Bitcoin SV’s Craig Wright Sues Peter McCormack For 100,000 GBP For Libel""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{uncertain: 0.7}
+{magnitude of increase/decrease: 0.1}
+This legal dispute between two figures in the crypto community might not have a significant impact on Bitcoin's price, as market movements are usually driven by broader macroeconomic factors, adoption, and technological advancements."
+44,"
+    Here is a piece of news:
+    ""Did Bitcoin Cash SV Surge 50% Because Of Fake News?""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{uncertain:1.0}
+{confidence (0-1): 0.4}
+{magnitude of increase/decrease (0-1): 0.1}
+{explanation (less than 25 words): The impact on BTC is uncertain due to the specificity of the news being about Bitcoin Cash SV, not BTC itself.}"
+45,"
+    Here is a piece of news:
+    ""Bitcoin SV Price Keeps Pumping as Calvin Ayre Predicts BSV to Absorb All Other Crypto""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase: BTC and BSV are different cryptocurrencies, so a pump in BSV's price might not directly impact BTC's price. However, any positive news about crypto in general may have a positive spillover effect.}
+{confidence (0-1)}: 0.3
+{magnitude of increase/decrease (0-1)}: 0.1
+{explanation (less than 25 words)}: Positive sentiment for BSV may boost overall crypto market sentiment."
+46,"
+    Here is a piece of news:
+    ""Bitcoin SV Price Top Performer on CMC Due to Craig Wright’s Recent Allegations Against Binance""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase: false}
+{decrease: true}
+{confidence (0-1): 0.7}
+{magnitude of decrease (0-1): 0.2}
+{explanation: The news is likely to negatively impact Bitcoin SV, not Bitcoin, as it involves internal disputes within the cryptocurrency community.}"
+47,"
+    Here is a piece of news:
+    ""Tron CEO Pays .5 Million to Give Warren Buffett His Best Crypto Pitch""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase: 0.2}
+{confidence (0-1): 0.4}
+{magnitude of increase/decrease (0-1): 0.1}
+{explanation (less than 25 words): The investment by Tron CEO may increase interest in crypto, but the impact on BTC is minimal due to Buffett not investing in BTC.}"
+48,"
+    Here is a piece of news:
+    ""Bitcoin SV Price ‘Rots’ on CMC While Craig Wright Claims: Bitcoin Users Will Rot in Jail""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease: 0.7}
+{confidence (0-1): 0.6}
+{magnitude of decrease (0-1): 0.3}
+{This negative news about Bitcoin SV could potentially cause a minor negative sentiment towards Bitcoin as a whole, potentially leading to a small decrease in its price.}"
+49,"
+    Here is a piece of news:
+    ""Self-proclaimed Bitcoin creator Craig Wright committed fraud according to Florida court documents""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}: {0.85}: {significant}: The news suggests legal troubles for a key figure in the Bitcoin community, potentially undermining confidence in the cryptocurrency."
+50,"
+    Here is a piece of news:
+    ""Craig Wright Is Satoshi Nakamoto (At Least Among the Council of Bogota)""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.3)}:
+{magnitude of increase (0.1)}:
+{explanation (The claim, even if true, might not significantly impact BTC as it has been contested for years)}"
+51,"
+    Here is a piece of news:
+    ""Binance to Launch Stellar (XLM) Staking and Airdrop 9,500,000 XLM""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.6)}:
+{magnitude of increase (0.1)}:
+{explanation: The XLM airdrop and staking on Binance could increase demand for XLM, potentially increasing its value, which could indirectly positively impact BTC due to the crypto market's interconnectedness.}"
+52,"
+    Here is a piece of news:
+    ""Bitcoin Cash developer who drove a tank through Virginia found not guilty""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{uncertain: 0.5}
+{confidence (0-1): 0.3}
+{magnitude of increase/decrease (0-1): 0.1}
+The impact of a single incident involving a Bitcoin Cash developer on the price of Bitcoin is likely to be minimal, as the two cryptocurrencies are distinct and the event does not directly affect Bitcoin's underlying value or adoption."
+53,"
+    Here is a piece of news:
+    ""Bakkt Nightmare: Bitcoin Plunges by More Than ,500 to ,000""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}
+{confidence (0.9)}:
+{magnitude of decrease (0.7)}:
+{explanation: The headline suggests a significant drop in Bitcoin price, which typically indicates a negative impact on the market value.}"
+54,"
+    Here is a piece of news:
+    ""Monero's price drops 2%, Stellar and Bitcoin SV not far behind""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}:
+{confidence (0.7)}:
+{magnitude of decrease (0.3)}:
+{Explanation: Other cryptocurrencies' price drops can negatively impact Bitcoin's price due to general market sentiment and competition.}"
+55,"
+    Here is a piece of news:
+    ""Bitcoin Cash down to  after continued sell offs""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}
+{confidence (0.8)}:
+{high}
+{explanation}: Bitcoin Cash is a fork of Bitcoin, and its price movement can indirectly impact Bitcoin. If Bitcoin Cash price drops due to sell-offs, it might lead to a temporary decrease in Bitcoin's price as well, due to the correlation between the two cryptocurrencies."
+56,"
+    Here is a piece of news:
+    ""You Can Now Pay with Bitcoin, Ethereum, or Litecoin on Amazon""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.7)}:
+{magnitude of increase (0.3)}:
+{explanation: The potential for increased use and acceptance of cryptocurrencies on a major platform like Amazon could lead to a modest increase in their value.}"
+57,"
+    Here is a piece of news:
+    ""TRON Continues to Shine; Overtakes Ethereum in Latest Chinese Crypto Rankings""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase: uncertainty}
+{confidence (0-1): 0.3}
+{magnitude of increase/decrease (0-1): 0.1}
+{explanation (less than 25 words): The news of TRON overtaking Ethereum in Chinese rankings may not have a significant impact on BTC as they operate in different sectors of the crypto market. However, positive news for one cryptocurrency can potentially boost investor sentiment towards the entire market.}"
+58,"
+    Here is a piece of news:
+    ""Justin Sun on TRON-Samsung Partnership, End of Crypto Winter & Next Bitcoin ATH: Exclusive Interview""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.6)}:
+{magnitude of increase (0.2)}:
+{explanation: This news could potentially be positive for BTC, as partnerships with major companies like Samsung could increase interest in the crypto space.}"
+59,"
+    Here is a piece of news:
+    ""Censorship-resistant Crypto to the Rescue as PayPal Ditches PornHub""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.6)}:
+{magnitude of increase (0.3)}:
+{explanation: The news might increase BTC as it hints at potential growth in demand for cryptocurrencies as alternatives to traditional payment systems.}"
+60,"
+    Here is a piece of news:
+    ""BitPay Enabling Merchants to Overcome Bitcoin Volatility with Stablecoins""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase: 0.3}
+{confidence (0-1): 0.6}
+{magnitude of increase/decrease (0-1): 0.1}
+{explanation: The use of stablecoins may reduce the need for merchants to hold Bitcoin, but it could also increase demand for Bitcoin to be converted to stablecoins, leading to a slight increase.}"
+61,"
+    Here is a piece of news:
+    ""‘Japan’s Amazon’ Rakuten now allows users to convert loyalty points to bitcoin, ether and bitcoin cash""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.6)}:
+{magnitude of increase (0.2)}:
+{explanation: The integration of cryptocurrency options within a popular e-commerce platform could potentially attract more users to Bitcoin and its peers.}"
+62,"
+    Here is a piece of news:
+    ""Bitcoin and Dash spike following Venezuela Internet shutdown""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.7)}:
+{magnitude of increase (0.4)}:
+{explanation: Limited internet access in Venezuela may boost local demand for cryptocurrencies like Bitcoin and Dash as they provide an alternative means of payment and store of value.}"
+63,"
+    Here is a piece of news:
+    ""Bitcoin (BTC) Soft-Fork in 2020 Predicted By Analyst: Here's Why""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{uncertain: 1}
+{confidence (0-1): 0.5}
+{magnitude of increase/decrease (0-1): 0.3}
+The prediction of a soft-fork in Bitcoin may cause temporary uncertainty, potentially leading to short-term fluctuations in price. However, the actual impact on the long-term value of Bitcoin is uncertain due to various factors such as market sentiment and investor reactions."
+64,"
+    Here is a piece of news:
+    ""Bitcoin SV Drops 15% As New Evidence Confirms CSW Hasn’t Got The 1.1M BTC Private Keys""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}
+{confidence (0.7)}:
+{magnitude of decrease (0.3)}:
+{explanation: Negative news about Bitcoin SV, a bitcoin cash fork, may lead to a slight reduction in overall investor confidence in the bitcoin market.}"
+65,"
+    Here is a piece of news:
+    ""IOTA (MIOTA) Tangle Technology Uses Far Less Energy Than Bitcoin (BTC)""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease: 0.7}
+{magnitude of decrease: 0.2}
+{Explanation: BTC consumes significantly more energy compared to IOTA's Tangle technology. This news may lead to a slight decrease in BTC's perceived value due to its energy consumption concerns.}"
+66,"
+    Here is a piece of news:
+    ""Bad Actors Rent Hashing Power to Hit Bitcoin Gold With New 51% Attacks""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}: {0.7}: {0.2}: Negative news about forks of Bitcoin like Bitcoin Gold can potentially lead to a decrease in BTC value due to increased market uncertainty. However, the magnitude of the decrease is expected to be relatively small as BTC is less directly impacted by the issues affecting its forks."
+67,"
+    Here is a piece of news:
+    ""Bitcoin Gold Suffers Another 51% Attack with ,000 Double-Spent""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}:
+{0.65}:
+{moderate}:
+{News of a 51% attack on Bitcoin Gold, a fork of Bitcoin, could potentially cause uncertainty in the crypto market, which may negatively affect Bitcoin as well, due to perceived security risks in the broader crypto ecosystem.}"
+68,"
+    Here is a piece of news:
+    ""Bitcoin (BTC) Loses to IOTA (MIOTA) on Energy Saving With 5.6 Mln Transactions Against One""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ",{decrease}: {0.7}: {0.4}: This news suggests a potential disadvantage for BTC compared to IOTA in terms of energy efficiency. This could lead to a decrease in BTC's perceived value among investors who prioritize energy-saving solutions.
+69,"
+    Here is a piece of news:
+    ""Bitcoin, Ether, and XRP Weekly Market Update February 3, 2020""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}: {0.5}
+{magnitude of increase (0-1)}: {0.3}
+{explanation}: The title suggests a market update, potentially indicating a reporting of positive trends, which could positively affect Bitcoin's price. However, it's uncertain as the actual content of the news is not provided."
+70,"
+    Here is a piece of news:
+    ""Tron CEO Justin Sun Finally Meets Warren Buffett ? As It Happened""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase: false}
+{confidence (0-1): 0.15}
+{magnitude of increase/decrease (0-1): 0.05}
+{explanation (less than 25 words): The meeting between Tron CEO Justin Sun and Warren Buffett does not directly affect Bitcoin's value, as they are separate entities. The meeting's outcome might influence Tron's value, possibly indirectly impacting Bitcoin in a minute way, but this is highly speculative.}"
+71,"
+    Here is a piece of news:
+    ""Bitcoin Price Might Be Due for Pullback as FOMO Kicks into High Gear""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}:
+{confidence (0.6)}:
+{magnitude of decrease (0.3)}:
+{Explanation: The news suggests a potential pullback in Bitcoin price, which might deter some investors and lead to a slight decrease in its value.}"
+72,"
+    Here is a piece of news:
+    ""TRON Price Analysis: TRX Crossing 5-Month Highs Eyeing BTC.03 As Next Target""
+    Do you think this news will increase or decrease %s?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.8)}:
+{magnitude of increase (0.5)}:
+{The news of TRON price crossing 5-month highs suggests a positive market sentiment for TRX, potentially increasing its value.}"
+73,"
+    Here is a piece of news:
+    ""Craig Wright Says He Owns Rights to Bitcoin (BTC), Threatens Legal Action Against ""CoreCoin"" and Bitcoin Cash (BCH)""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase: false}
+{confidence (0-1): 0.4}
+{magnitude of decrease (0-1): 0.2}
+{explanation: Craig Wright's claims could potentially create uncertainty, which might negatively impact investor sentiment towards BTC.}"
+74,"
+    Here is a piece of news:
+    ""Bitcoin Bumps Up, but for How Long?""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.5)}:
+{magnitude of increase (0.2)}:
+{explanation: The headline suggests a positive development, but it's uncertain if the news will have a significant impact due to market volatility and other factors.}"
+75,"
+    Here is a piece of news:
+    ""FTX Exchange Review [2020] – The Complete Beginner’s Guide""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{uncertain}: {0.4}: {0.2}: This review is a guide for beginners, which suggests it may not have a direct impact on the price of BTC. However, positive reviews can lead to increased adoption and potential price increases over time."
+76,"
+    Here is a piece of news:
+    ""What is Chainlink? – The ULTIMATE Beginner’s Guide""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}: {0.3}: {0.1}: Chainlink is a decentralized oracle network that links smart contracts to real-world data, which can potentially increase the utility of Bitcoin by enabling more complex smart contract applications on the Bitcoin blockchain. However, the immediate impact on BTC price may be minimal."
+77,"
+    Here is a piece of news:
+    ""Bitcoin Cash (BCH) Is a Shitcoin, According to BitMEX CEO Arthur Hayes""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}
+{0.6}
+{0.3}
+{Arthur Hayes' negative opinion on Bitcoin Cash might negatively impact the overall sentiment towards Bitcoin, potentially decreasing its value.}"
+78,"
+    Here is a piece of news:
+    ""Attempted 51% Attack on Bitcoin Gold Was Thwarted, Developers Say""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{uncertain}: {0.5}: {0.25}
+Explanation: A 51% attack on a different cryptocurrency (Bitcoin Gold) does not necessarily have a direct impact on Bitcoin. However, such attacks can create uncertainty in the market, leading to some short-term volatility."
+79,"
+    Here is a piece of news:
+    ""Bitcoin Gold devs say they stopped an ‘extremely long’ block reorganization attack""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease: 0.6}
+{magnitude of decrease: 0.2}
+The news about Bitcoin Gold's block reorganization attack might raise concerns about the security of smaller Bitcoin forks, potentially affecting investor sentiment towards Bitcoin itself, albeit to a limited degree."
+80,"
+    Here is a piece of news:
+    ""Austrian Telecom Giant Enables Bitcoin Payment Support""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}: {0.7}: {0.4}: This news signals increased adoption of Bitcoin, potentially leading to increased demand."
+81,"
+    Here is a piece of news:
+    ""Link’s Trading Volume on Coinbase Surpasses That of Bitcoin""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease:1}
+{confidence (0-1): 0.7}
+{magnitude of increase/decrease (0-1): 0.3}
+{explanation: Link's trading volume surpassing Bitcoin's on Coinbase may indicate a shift in investor interest, potentially leading to a temporary decrease in Bitcoin's trading volume and price.}"
+82,"
+    Here is a piece of news:
+    ""Appeals Court Backs Coinbase in Bitcoin Gold Fork ‘Breach of Contract’ Lawsuit""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase:1}
+{confidence (0-1): 0.7}
+{magnitude of increase (0-1): 0.2}
+{explanation: The ruling indicates a positive outcome for Coinbase, potentially reducing uncertainties and increasing investor confidence in the platform, which may positively impact BTC.}"
+83,"
+    Here is a piece of news:
+    ""Market Watch: LINK Records  ATH While Bitcoin Stuck Below The  Resistance""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase: uncertain}
+{confidence (0-1): 0.3}
+{magnitude of increase/decrease (0-1): 0.1}
+{explanation (less than 25 words): The relationship between LINK's ATH and BTC is not directly correlated, and other market factors could have a larger impact on BTC's price.}"
+84,"
+    Here is a piece of news:
+    ""WBTC Are Being Tokenized on Ethereum Faster Than Bitcoin is Mined""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase: false, confidence: 0.7, magnitude_of_decrease: 0.2, explanation: ""WBTC tokenization doesn't affect the supply of Bitcoin, and thus, it may not significantly impact Bitcoin's price in a positive way.""}"
+85,"
+    Here is a piece of news:
+    ""Another Bitcoin on Ethereum DeFi token is taking off""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}: {0.3}: {low}: While a Bitcoin token on Ethereum DeFi could potentially increase Bitcoin's presence in the DeFi space, it's unlikely to have a significant direct impact on the price of Bitcoin."
+86,"
+    Here is a piece of news:
+    ""Dave Portnoy Doesn?t Own Bitcoin (BTC), Chainlink (LINK), and Orchid (OXT) Anymore, Says He May Be Done with Crypto""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}: {0.6}
+{magnitude of decrease (0-1)}: {0.2}
+Dave Portnoy selling his crypto holdings may cause a minor short-term decrease due to reduced demand, but the overall crypto market is influenced by many factors and is likely to recover."
+87,"
+    Here is a piece of news:
+    ""Chainlink Is Now 35% Below Its ATH Reached Just 2 Weeks Ago (LINK Price Analysis)""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease: 0.6}
+{confidence (0-1): 0.7}
+{magnitude of decrease (0-1): 0.2}
+{explanation: Decline in Chainlink price may negatively impact overall crypto market sentiment, potentially reducing BTC price.}"
+88,"
+    Here is a piece of news:
+    ""Russia Can Legalize Bitcoin Mining But There’s a Catch""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.7)}:
+{magnitude of increase (0.3)}:
+{explanation: Possible regulatory clarity could encourage miners, but the 'catch' may indicate restrictive conditions.}"
+89,"
+    Here is a piece of news:
+    ""SUSHI Sell Off Drives the Crypto Market to Abyss: Bitcoin Below ""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}
+{confidence (0.7)}:
+{magnitude of decrease (0.4)}:
+{The selling of SUSHI may negatively impact the crypto market, including Bitcoin.}"
+90,"
+    Here is a piece of news:
+    ""Crypto Price Analysis & Overview November 6th: Bitcoin, Ethereum, Ripple, Litecoin, and Cardano""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.6)}:
+{magnitude of increase (0.2)}:
+{explanation (The headline suggests a price analysis, which may lead to informed trading and potentially increased demand for Bitcoin.)}"
+91,"
+    Here is a piece of news:
+    ""The Long Collapse of Bitcoin Gold""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}: {0.7}: {0.2}: The collapse of a bitcoin spinoff may negatively affect investor sentiment towards BTC, leading to a potential decrease. However, it's important to note that the Bitcoin network itself is robust."
+92,"
+    Here is a piece of news:
+    ""DeFi Comes Roaring Back: Aave, Uniswap, yEarn Lead the Way""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.4)}:
+{magnitude of increase (0.2)}:
+{explanation (DeFi's growth often positively impacts the overall crypto market, but the correlation is not always strong.)}"
+93,"
+    Here is a piece of news:
+    ""XRP To Outperform Bitcoin Next Year As Price Indicator Bets It Will Have Its “Best Year Since 2017”""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}
+{confidence (0.65)}:
+{magnitude of decrease (0.2)}:
+{explanation: The news suggests a potential increase in XRP's value, which could divert investor attention and resources away from Bitcoin, potentially decreasing its value.}"
+94,"
+    Here is a piece of news:
+    ""Altcoins Could See a Raging Bull Market if Bitcoin Continues Trading Sideways""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.4)}:
+{magnitude of increase (0.2)}:
+{explanation: The news suggests that altcoins may outperform BTC in a sideways market, potentially driving demand for BTC as a result.}"
+95,"
+    Here is a piece of news:
+    ""Analysts Fear Ethereum Has Topped After  Resistance Is Tapped Twice""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}
+{confidence (0.7)}:
+{magnitude of decrease (0.3)}:
+{Explanation: The negative sentiment around Ethereum, a major competitor of BTC, might lead to a temporary reduction in the overall crypto market sentiment, potentially affecting BTC as well.}"
+96,"
+    Here is a piece of news:
+    ""Top 5 cryptocurrencies to watch this week: BTC, ETH, XRP, XMR, UNI""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.7)}:
+{magnitude of increase (0.3)}:
+{explanation: The mention of BTC in a list of top cryptocurrencies could potentially generate interest and demand for it.}"
+97,"
+    Here is a piece of news:
+    ""Stellar Lumens, Bitcoin Gold, FTX Token Price Analysis: 16 November""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase: uncertain}
+{confidence (0-1): 0.3}
+{magnitude of increase/decrease (0-1): 0.1}
+{explanation: The article is about Stellar Lumens, Bitcoin Gold, and FTX Token, not Bitcoin directly. Therefore, it's uncertain whether this news will have a significant impact on BTC's price.}"
+98,"
+    Here is a piece of news:
+    ""BTC forks Bitcoin Gold and Bitcoin Diamond mysteriously pump 25% each""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase: uncertain}
+{confidence (0-1): 0.3}
+{magnitude of increase/decrease (0-1): 0.1}
+{explanation: Forks of Bitcoin can sometimes impact the value of BTC indirectly, but this effect is typically small and not immediate. The ""pump"" of Bitcoin Gold and Bitcoin Diamond might be due to other factors rather than BTC itself.}"
+99,"
+    Here is a piece of news:
+    ""Ether hits  for the first time since June 2018, outperforming Bitcoin YTD""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase:uncertain}
+{confidence (0-1): 0.4}
+{magnitude of increase/decrease (0-1): 0.2}
+{explanation (less than 25 words): Ether's success might divert attention from BTC, but cross-market correlations might also lead to a slight BTC increase.}"
+100,"
+    Here is a piece of news:
+    ""Market Wrap: Bitcoin Hits .8K as Total Crypto Locked in DeFi Passes ""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.7)}:
+{magnitude of increase (0.3)}:
+{explanation (The news of increased DeFi adoption and higher total crypto locked in DeFi may indicate growing interest in the crypto space, potentially boosting Bitcoin's value.)}"
+101,"
+    Here is a piece of news:
+    ""XRP Massively Moves 20% And ETH Surpasses ""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase:uncertain, confidence:0.5, magnitude:0.25}
+The correlation between XRP, ETH, and BTC is not always straightforward. However, a significant move in XRP or ETH can potentially lead to some spillover effect on BTC, but the magnitude is expected to be small."
+102,"
+    Here is a piece of news:
+    ""Bitcoin Cash is what Bitcoin was from 2009 to 2015.
+Don’t miss the opportunity of a lifetime, twice!""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase: 0.3}
+{confidence (0-1): 0.6}
+{magnitude of increase/decrease (0-1): 0.2}
+{explanation: The statement could imply a positive sentiment towards Bitcoin Cash, but its impact on BTC is unclear as they are separate cryptocurrencies.}"
+103,"
+    Here is a piece of news:
+    ""Top Crypto Analyst Says Two Little-Known Altcoins Offer Massive Entry Opportunities, Outlines What’s Next for Bitcoin and Ethereum""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}: {0.5}: {moderate}: The news suggests positive sentiments for altcoins, which could potentially spill over to Bitcoin due to its correlation with the broader crypto market. However, the analyst's focus on specific altcoins might not have a significant immediate impact on Bitcoin."
+104,"
+    Here is a piece of news:
+    ""XRP Explodes 50% to Head the Altseason While Bitcoin Price Rests (Market Watch)""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase: uncertain}
+{confidence (0-1): 0.3}
+{magnitude of increase/decrease (0-1): 0.2}
+{explanation (less than 25 words): The news about XRP's price increase may not directly affect BTC's price due to their different market dynamics and use cases. However, a positive sentiment in the cryptocurrency market could potentially benefit both assets. The low confidence is due to the unpredictability of market behavior and the specific circumstances not being fully known.}"
+105,"
+    Here is a piece of news:
+    ""Bitcoin Mining Firm Canaan Posts  Loss in Q3 2020""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}
+{confidence (0.7)}:
+{magnitude of decrease (0.3)}:
+{explanation: Negative earnings from a major mining firm could indicate a decrease in mining activity, potentially reducing the supply of Bitcoins, which may lead to a slight price decrease.}"
+106,"
+    Here is a piece of news:
+    ""224-Year Old German Bank to Float Crypto Fund in 2021""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.6)}:
+{magnitude of increase (0.3)}:
+{explanation: A traditional bank entering the crypto market may increase confidence in Bitcoin as an investment, but the impact is expected to be moderate.}"
+107,"
+    Here is a piece of news:
+    ""Mike Novogratz Agrees That Litecoin Is Direct Attack on Bitcoin""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase: false, confidence: 0.6, magnitude_of_decrease: 0.2, explanation: ""Novogratz's statement suggests potential competition between Litecoin and Bitcoin, which might lead to a temporary decrease in Bitcoin's market dominance, but not necessarily a significant drop in its price.""}"
+108,"
+    Here is a piece of news:
+    ""Ethereum Could Plunge Below  Despite Ongoing Rebound, Claims Analyst""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}
+{confidence (0.6)}:
+{magnitude of decrease (0.3)}:
+{Explanation: The correlation between Ethereum and Bitcoin is strong. A potential downturn in Ethereum may negatively impact the market sentiment, potentially affecting Bitcoin as well.}"
+109,"
+    Here is a piece of news:
+    ""Crypto Analysts at Messari Name 28 Crypto Assets They’re Holding As 2021 Approaches""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.5)}:
+{magnitude of increase (0.2)}:
+{explanation: The news suggests positive sentiment towards the crypto market, which may positively affect BTC.}"
+110,"
+    Here is a piece of news:
+    ""Bitwise Joins Grayscale, Launches Crypto Index for Institutions""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.7)}:
+{magnitude of increase (0.3)}:
+This partnership could bring more institutional investment into Bitcoin, potentially increasing its value."
+111,"
+    Here is a piece of news:
+    ""Fidelity to Offer Bitcoin-Backed Cash Loans via BlockFi""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.7)}:
+{magnitude of increase (0.3)}:
+{explanation: Fidelity's involvement in Bitcoin-backed cash loans may increase institutional adoption and demand for Bitcoin.}"
+112,"
+    Here is a piece of news:
+    ""Singapore’s DBS Bank announces plans to launch BTC, XRP, ETH-offering exchange""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.7)}:
+{magnitude of increase (0.3)}:
+{explanation: The bank's entry into the cryptocurrency exchange market could potentially boost investor confidence and increase demand for Bitcoin.}"
+113,"
+    Here is a piece of news:
+    ""XRP Prepares for Volatility as Spark Airdrop Approaches""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{uncertain:1}
+{confidence (0-1): 0.5}
+{magnitude of increase/decrease (0-1): 0.1}
+{explanation (less than 25 words): The XRP and BTC markets are not strongly correlated, but a significant event in one market can cause temporary fluctuations in the other, making it uncertain whether this news will have a noticeable impact on BTC.}"
+114,"
+    Here is a piece of news:
+    ""Crypto Traders Can Now Buy Bitcoin and Ethereum With Apple Pay – Here’s How""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.7)}:
+{magnitude of increase (0.3)}:
+{explanation: The ease of purchasing Bitcoin and Ethereum using Apple Pay may attract more users to crypto trading, potentially increasing its value.}"
+115,"
+    Here is a piece of news:
+    ""Top Crypto Strategist Says Several Altcoins Set to Break Out, XRP Could Rally if Key Level Holds""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.6)}:
+{magnitude of increase (0.3)}:
+{explanation: The news suggests positive sentiment for altcoins, which could trigger BTC price increases due to increased market activity.}"
+116,"
+    Here is a piece of news:
+    ""Bitcoin Price Could Hit ,000 ‘Very Quickly’ Says Celsius Network CEO""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}
+{confidence (0.7)}
+{magnitude of increase (0.3)}
+News about a CEO's positive outlook on Bitcoin's price can potentially increase investor confidence, leading to increased demand and potentially a slight price increase. However, this is not a definitive guarantee, and other factors could still influence the price."
+117,"
+    Here is a piece of news:
+    ""Massive Bitcoin Gains Are Being Dwarfed By Ripple’s XRP, Litecoin, Ethereum And These Minor Cryptocurrencies""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}
+{0.7}
+{moderate}
+The news may imply that other cryptocurrencies are outperforming Bitcoin, which could potentially decrease its value in the short term."
+118,"
+    Here is a piece of news:
+    ""Bitcoin Crash Devastates Prices of XRP, Ethereum and Bitcoin Cash""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}
+{confidence (0.7)}:
+{magnitude of decrease (0.3)}:
+{Explanation: The title itself suggests a drop in the prices of various cryptocurrencies, including Bitcoin. This news, therefore, is likely to further decrease Bitcoin's price due to the negative sentiment it creates.}"
+119,"
+    Here is a piece of news:
+    ""Ripple Lawsuit Triggers XRP Led Altcoin Apocalypse""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase: false, decrease: true, uncertainty: 0.2}
+{confidence (0-1): 0.7}
+{magnitude of increase/decrease (0-1): 0.3}
+{explanation: The XRP lawsuit may negatively impact Ripple and XRP, but it's unlikely to have a significant direct effect on BTC due to their distinct markets and use cases.}"
+120,"
+    Here is a piece of news:
+    ""Ripple Will Either Be Victorious or Settle Out of Court with the SEC""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}:
+{confidence (0.45)}:
+{magnitude of increase (0.2)}:
+{explanation: Potential positive sentiment around Ripple may indirectly benefit other cryptocurrencies, including BTC.}"
+121,"
+    Here is a piece of news:
+    ""Max Keiser: SEC Will Target Other ‘Garbage’ Altcoins After Ripple""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase: 0.4}
+{confidence (0-1): 0.6}
+{magnitude of increase/decrease (0-1): 0.2}
+{explanation (less than 25 words): The focus of SEC on Ripple may divert attention from other altcoins, potentially boosting Bitcoin's relative position in the market.}"
+122,"
+    Here is a piece of news:
+    ""Crypto Exchanges in the U.S Could Delist XRP – Analyst""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}:
+{confidence (0.6)}:
+{magnitude of decrease (0.2)}:
+{explanation: Delisting of XRP on crypto exchanges could negatively impact the broader crypto market, potentially affecting Bitcoin.}"
+123,"
+    Here is a piece of news:
+    ""Price analysis 12/28: BTC, ETH, XRP, LTC, BCH, DOT, ADA, BNB, LINK, XLM""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase: uncertain}
+{confidence (0-1): 0.5}
+{magnitude of increase/decrease (0-1): 0.3}
+{explanation (less than 25 words): Price analysis headlines often do not directly impact prices; they are more about interpreting current market trends, which can vary.}"
+124,"
+    Here is a piece of news:
+    ""The SEC Is Looking to Engage in Legal Action Against Ripple""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}
+{confidence (0.7)}:
+{magnitude of decrease (0.3)}:
+{explanation: Negative news about a competitor in the cryptocurrency market may negatively impact Bitcoin's price.}"
+125,"
+    Here is a piece of news:
+    ""Update: The SEC Is Now Officially Suing Ripple""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ",{decrease}: {0.6}: {0.2}: This news might negatively impact BTC as the SEC lawsuit against Ripple could potentially create uncertainty in the broader crypto market.
+126,"
+    Here is a piece of news:
+    ""Last Market Watch of 2020: Bitcoin Price Eyes , Polkadot (DOT) Breaks ATH""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase}
+{confidence (0.7)}:
+{magnitude of increase (0.3)}:
+{The news about Polkadot reaching an ATH suggests growing interest in the crypto market, which could positively impact Bitcoin as well.}"
+127,"
+    Here is a piece of news:
+    ""Polkadot Overtakes Bitcoin Cash in First Year of Activity""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease:}
+{confidence (0.6):}
+{magnitude of decrease (0.2):}
+{The headline suggests a competitor of Bitcoin, Polkadot, outperforming it, which could potentially lead to a decrease in BTC's perceived value.}"
+128,"
+    Here is a piece of news:
+    ""Grayscale’s XRP, XLM Trust Products Bleed Value Amid Ripple Lawsuit""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{decrease}
+{confidence (0.6)}:
+{magnitude of decrease (0.2)}:
+{explanation: The negative sentiment towards XRP and XLM may impact the overall crypto market, potentially causing a ripple effect on BTC.}"
+129,"
+    Here is a piece of news:
+    ""Faulty data? Grayscale didn’t liquidate massive amounts of XRP and XLM""
+    Do you think this news will increase or decrease BTC?
+    Write your answer as: 
+    {increase/decrease/uncertain}:
+    {confidence (0-1)}:
+    {magnitude of increase/decrease (0-1)}:
+    {explanation (less than 25 words)}
+            ","{increase:1}
+{confidence (0-1): 0.7}
+{magnitude of increase (0-1): 0.3}
+{explanation (less than 25 words): The relief from potential selling pressure on XRP and XLM could positively affect BTC prices.}"

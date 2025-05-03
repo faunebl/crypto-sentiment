@@ -42,21 +42,38 @@ def import_data() -> pl.DataFrame:
         .with_columns(pl.col('prompts').str.replace(r'%s', "BTC"))
     )
 
-async def stream_response(index: int, prompt: str, semaphore: asyncio.Semaphore) -> tuple:
+
+async def stream_response(index: int, prompt: str, semaphore: asyncio.Semaphore,
+                          retries: int = 4, backoff_base: float = 1) -> tuple:
     async with semaphore:
-        try:
-            response = await mistral_client.chat.stream_async(
-                model=model,
-                messages=[{"role": "user", "content": prompt}]
-            )
-            output = ""
-            async for chunk in response:
-                delta = chunk.data.choices[0].delta.content
-                if delta:
-                    output += delta
-            return index, prompt, output
-        except Exception as e:
-            return index, prompt, f"[ERROR] {e}"
+        for attempt in range(1, retries + 1):
+            try:
+                response = await mistral_client.chat.stream_async(
+                    model=model,
+                    messages=[{"role": "user", "content": prompt}]
+                )
+                output = ""
+                async for chunk in response:
+                    delta = chunk.data.choices[0].delta.content
+                    if delta:
+                        output += delta
+                return index, prompt, output
+
+            except Exception as e:
+                err = str(e)
+                # retry seulement si c'est un rate limit 429
+                if "429" in err or "rate limit" in err.lower():
+                    wait = backoff_base * (2 ** (attempt - 1))
+                    print(f"[429] Rate limit, retry {attempt}/{retries} in {wait:.1f}s…")
+                    await asyncio.sleep(wait)
+                    continue
+                # sinon on abandonne direct
+                return index, prompt, f"[ERROR] {err}"
+
+        # après tous les retries
+        return index, prompt, "[ERROR] rate-limit retries exhausted"
+
+
 
 async def process_in_batches(prompts: list, batch_size: int=1000, concurrency: int=50):
     semaphore = asyncio.Semaphore(concurrency)

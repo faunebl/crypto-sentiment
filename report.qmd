@@ -18,11 +18,6 @@ css: |
   p {
     text-align: justify;
   }
-jupyter:
-  kernelspec: 
-    name: python3
-    language: python
-    display_name: python3
 bibliography: bibliography.bib
 nocite: |
   @*
@@ -40,12 +35,6 @@ We collected a dataset from GitHub entitled [Crypto News Dataset](https://github
 
 Here is a quick view of the pre processed dataset with our function "import_data" in the "prompts" module. This function reads the csv files from the GitHub repository linked above, then it removes unwanted columns and formats the date so that we only have the day at which it was posted. We can see that there can be multiple headlines in one day, or no headlines. This will cause issues that we will explain later on in the project.
 
-```{python}
-from prompts import_data
-titles = import_data()
-pl.config.Config.set_tbl_width_chars(-1)
-display(titles.drop('prompts').head())
-```
 
 The function also writes the prompts that we will later feed to the Large Language Model in order to properly generate the scores, which we will explain in the following section.
 

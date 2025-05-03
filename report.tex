@@ -133,12 +133,15 @@
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
+\usepackage[]{biblatex}
+\addbibresource{bibliography.bib}
+\nocite{*}
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same} % disable monospaced font for URLs
 \hypersetup{
-  pdftitle={Timing the Core Equity Factor: Summary},
-  pdfauthor={Faune Blanchard},
+  pdftitle={Bitcoin sentiment analysis},
+  pdfauthor={Ambroise Thibault, Faune Blanchard, Maxime Lorenzo},
   colorlinks=true,
   linkcolor={blue},
   filecolor={Maroon},
@@ -146,13 +149,13 @@
   urlcolor={Blue},
   pdfcreator={LaTeX via pandoc}}
 
-\title{Timing the Core Equity Factor: Summary}
-\author{Faune Blanchard}
+\title{Bitcoin sentiment analysis}
+\author{Ambroise Thibault, Faune Blanchard, Maxime Lorenzo}
 \date{}
 
 \begin{document}
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, interior hidden, breakable, frame hidden, borderline west={3pt}{0pt}{shadecolor}, sharp corners, enhanced]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, breakable, enhanced, interior hidden, frame hidden, borderline west={3pt}{0pt}{shadecolor}, sharp corners]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -160,8 +163,101 @@
 \setcounter{tocdepth}{4}
 \tableofcontents
 }
+\hypertarget{introduction}{%
+\section{Introduction}\label{introduction}}
+
+Write with chat
+
+\hypertarget{generating-sentiment-score}{%
+\section{Generating sentiment score}\label{generating-sentiment-score}}
+
+\hypertarget{presentation-of-the-database}{%
+\subsection{Presentation of the
+database}\label{presentation-of-the-database}}
+
+We collected a dataset from GitHub entitled
+\href{https://github.com/soheilrahsaz/cryptoNewsDataset}{Crypto News
+Dataset}. It aggregates daily headlines from a variety of crypto news
+websites. Each headline is labeled with the cryptocurrencies to which it
+refers. They are also timestamped down to the second the news was posted
+on the site. We also have the number of likes, dislikes, comments and
+others, although these are often 0, as well as the link to the article.
+In this project, we will only be using the raw headlines in order to
+generate the scores that we need.
+
+Here is a quick view of the pre processed dataset with our function
+``import\_data'' in the ``prompts'' module. This function reads the csv
+files from the GitHub repository linked above, then it removes unwanted
+columns and formats the date so that we only have the day at which it
+was posted. We can see that there can be multiple headlines in one day,
+or no headlines. This will cause issues that we will explain later on in
+the project.
+
+The function also writes the prompts that we will later feed to the
+Large Language Model in order to properly generate the scores, which we
+will explain in the following section.
+
+\hypertarget{generating-prompts}{%
+\subsection{Generating prompts}\label{generating-prompts}}
+
+For each headline, we generate a prompt which asks the AI its beliefs
+about the evolution of Bitcoin returns based on this headline. The
+prompt we decided to use is the exact prompt presented in
+\textcite{leland_bybee_2025} . The exact prompt reads :
+
+\begin{verbatim}
+Here is a piece of news:
+"%s"
+Do you think this news will increase or decrease BTC?
+Write your answer as: 
+{increase/decrease/uncertain}:
+{confidence (0-1)}:
+{magnitude of increase/decrease (0-1)}:
+{explanation (less than 25 words)}
+\end{verbatim}
+
+Where ``\%s'' is replaced by the headline. After editing this prompt, we
+notice that removing part of this prompt changes the results drastically
+(from ``increase'' to ``decrease'' for the same headline). Therefore, we
+decided to keep the prompt from the paper as is, even though we will
+only use the results for ``increase'' or ``decrease'' for this project.
+This prompt has been adapted from traditional retail investor surveys or
+surveys of CFOs that are used to produce a sentiment indicator. However,
+these are costly and slow. As presented in the paper, using AI models to
+replace human answers mimics the same results on a much bigger and
+faster scale. We will also try to edit this prompt by adding context:
+since Bitcoin has mostly been popular among retail investors, we can add
+a simple sentence (e.g.~``You are a retail investor'') at the beginning
+of this prompt, to see if this yields better results. We will conclude
+on this in the end of the project.
+
+More information about the construction on this prompt can be found in
+\textcite{leland_bybee_2025} .
+
+\hypertarget{scores-methodology}{%
+\subsection{Scores methodology}\label{scores-methodology}}
+
+\hypertarget{comparison-with-btc-returns}{%
+\section{Comparison with BTC
+returns}\label{comparison-with-btc-returns}}
+
+\hypertarget{extracting-btc-returns}{%
+\subsection{Extracting BTC returns}\label{extracting-btc-returns}}
+
+\hypertarget{comparing-with-scores}{%
+\subsection{Comparing with scores}\label{comparing-with-scores}}
+
+\hypertarget{initial-results}{%
+\subsubsection{Initial results}\label{initial-results}}
+
+\hypertarget{problems-with-our-model}{%
+\subsubsection{Problems with our model}\label{problems-with-our-model}}
+
+\hypertarget{interpretation}{%
+\subsubsection{Interpretation}\label{interpretation}}
 
 
+\printbibliography[title=Conclusion]
 
 
 \end{document}

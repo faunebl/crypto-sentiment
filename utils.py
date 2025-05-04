@@ -67,7 +67,7 @@ def local_projection_irf_polars(y: pl.Series, x: pl.Series, control: pl.Series, 
 
     return irf_results
 
-def get_logistic_regression(df: pl.DataFrame, penalty: str, X: list, y: list):
+def get_logistic_regression(penalty: str, X: list, y: list):
     model = LogisticRegression(penalty=penalty, multi_class='multinomial')
 
     ind = -int(len(X)/3)
@@ -150,3 +150,24 @@ def get_btc_returns(scores: pl.DataFrame):
         .with_columns(pl.when(pl.col('returns').gt(0)).then(1).otherwise(0).alias('actual'))
     )
     return df_price
+
+def irf_signal_strategy(sentiment_ear: pl.Series, irf: dict, returns: pl.Series) -> pl.Series:
+    """
+    Generate trading signal using IRF * sentiment shock.
+    
+    Args:
+        sentiment_ear (pl.Series): EAR time series.
+        irf (dict): IRF values by horizon (1 to H).
+        returns (pl.Series): Realized returns time series.
+
+    Returns:
+        pl.Series: Strategy returns time series.
+    """
+    # predicted return impact from sentiment
+    irf_sum = sum(irf.values())  # ( scalar)
+    
+    signal = sentiment_ear * irf_sum
+    position = pl.DataFrame(signal).with_columns(pl.when(pl.col('sentiment_ear').gt(0)).then(1).otherwise(-1)).to_series()
+
+    strategy_return = (position * returns)
+    return strategy_return
